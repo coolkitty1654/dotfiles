@@ -1,24 +1,19 @@
-window:
-   padding:
-     x: 30
-     y: 30
+colors.primary]
+background = "#390420"
+foreground = "#ecd2d2"
 
-   opacity: 0.75
+[cursor.style]
+blinking = "always"
 
-font:
-  normal:
-    family: "MesloLGS NF"
+[font.normal]
+family = "MesloLGS NF"
 
-cursor:
-   style:
-      blinking: always
+[shell]
+program = "/bin/zsh"
 
-shell:
-   program: /bin/zsh
+[window]
+opacity = 0.75
 
-colors:
-   primary:
-     background: "#390420"
-     foreground: "#ecd2d2"
-#import:
-# - ~/.config/alacritty/themes/themes/tokyo-night2.yaml
+[window.padding]
+x = 30
+y = 30
